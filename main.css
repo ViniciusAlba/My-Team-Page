@@ -1,0 +1,47 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: grid;
+    grid-template-areas:
+    "mainTitle information";
+
+    justify-content: center;
+    padding: 100px;
+}
+
+.mainTitle {
+    grid-area: mainTitle;
+
+    font-family: 'PT Serif', serif;
+    font-size: 28px;
+    font-weight: 700;
+
+    padding-right: 200px;
+
+    color: #000000;
+}
+
+.information {
+    grid-area: information;
+
+    width: auto;
+}
+
+.information, h2 {
+    font-weight: 600;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.information, p {
+    width: 350px;
+
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+
+    color: #000000;
+}
