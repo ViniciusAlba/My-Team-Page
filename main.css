@@ -2,6 +2,11 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+img {
+    width: 300px;
+    height: 403px;
+}
+
 .header {
     display: grid;
     grid-template-areas:
@@ -15,7 +20,7 @@ html {
     grid-area: mainTitle;
 
     font-family: 'PT Serif', serif;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
 
     padding-right: 200px;
@@ -44,4 +49,63 @@ html {
     text-align: left;
 
     color: #000000;
+}
+
+.mainContent {
+    display: grid;
+    grid-template-areas:
+    "photo1 photo2 photo3"
+    "photo4 photo5 photo6";
+
+    justify-items: center;
+}
+
+#photo1, #photo2, #photo3,
+#photo4, #photo5, #photo6 {
+    margin-bottom: 150px;
+}
+
+#photo2, #photo5 {
+    margin-top: 150px;
+}
+
+#photo1 {
+    grid-area: photo1;
+}
+
+#photo2 {
+    grid-area: photo2;
+}
+
+#photo3 {
+    grid-area: photo3;
+}
+
+#photo4 {
+    grid-area: photo4;
+}
+
+#photo5 {
+    grid-area: photo5;
+}
+
+#photo6 {
+    grid-area: photo6;
+}
+
+.mainContent h3 {
+    font-weight: 600;
+    
+    position: relative;
+    top: 20px;
+}
+
+.mainContent p {
+    font-weight: 400;
+
+    transform: rotate(90deg);
+    
+    position: relative;
+    bottom: 260px;
+    left: 150px;
 }
