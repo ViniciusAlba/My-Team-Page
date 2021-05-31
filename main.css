@@ -12,6 +12,8 @@ img {
     grid-template-areas:
     "mainTitle information";
 
+    grid-template-columns: 600px 600px;
+
     justify-content: center;
     padding: 100px;
 }
@@ -22,8 +24,6 @@ img {
     font-family: 'PT Serif', serif;
     font-size: 32px;
     font-weight: 700;
-
-    padding-right: 200px;
 
     color: #000000;
 }
@@ -57,12 +57,17 @@ img {
     "photo1 photo2 photo3"
     "photo4 photo5 photo6";
 
+    grid-template-columns: 450px 450px 450px;
+
+    justify-content: center;
     justify-items: center;
+    margin: auto;
 }
 
 #photo1, #photo2, #photo3,
 #photo4, #photo5, #photo6 {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    width: 300px;
 }
 
 #photo2, #photo5 {
@@ -108,4 +113,17 @@ img {
     position: relative;
     bottom: 260px;
     left: 150px;
+}
+
+footer p {
+    margin: auto;
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #A9A9A9;
+}
+
+footer a {
+   color: #A9A9A9;
 }
