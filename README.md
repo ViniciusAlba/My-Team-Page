@@ -50,5 +50,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [ViniciusAlba](https://{www.github.com/ViniciusAlba})
-- Twitter [viniciusnitram](https://{www.twitter.com/viniciusnitram})
+- GitHub [ViniciusAlba](https://www.github.com/ViniciusAlba)
+- Twitter [viniciusnitram](https://www.twitter.com/viniciusnitram)
