@@ -240,6 +240,13 @@ footer a {
         
         color: #000000;
     }
+
+    .mainContent h3 {
+        font-weight: 600;
+        
+        position: relative;
+        top: 10px;
+    }
     
     .information, p {
         width: 350px;
@@ -289,5 +296,120 @@ footer a {
 
     #photo5 {
         margin-top: 0;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    @media (max-width: 400px) {
+        img {
+            width: 120px;
+            height: 203px;
+        }
+    
+        .header {
+            display: grid;
+            grid-template-areas:
+            "mainTitle mainTitle"
+            "information information";
+        
+            grid-template-columns: 300px 300px;
+        
+            justify-content: left;
+            justify-items: left;
+            padding: 0 0 100px 10px;
+        }
+        
+        .mainTitle {
+            grid-area: mainTitle;
+        
+            font-family: 'PT Serif', serif;
+            font-size: 32px;
+            font-weight: 700;
+    
+            line-height: 100px;
+        
+            color: #000000;
+        }
+        
+        .information {
+            grid-area: information;
+        
+            width: 150px;
+        }
+    
+        .information, h2 {
+            font-weight: 600;
+            line-height: 25px;
+        
+            font-size: px;
+            
+            color: #000000;
+        }
+        
+        .information, p {
+            width: 350px;
+        
+            line-height: 25px;
+            font-weight: 400;
+            text-align: left;
+    
+            font-size: 14px;
+        
+            color: #000000;
+        }
+    
+        .mainContent {
+            display: grid;
+            grid-template-areas:
+            "photo1 photo2"
+            "photo3 photo4"
+            "photo5 photo6";
+        
+            grid-template-columns: 170px 170px;
+    
+            width: auto;
+
+            justify-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .mainContent h3 {
+            font-weight: 600;
+            
+            position: relative;
+            top: 10px;
+        }
+    
+        .mainContent p {
+            font-weight: 400;
+    
+            transform: rotate(90deg);
+            
+            position: relative;
+            bottom: 75px;
+            left: -40px;
+        }
+    
+        #photo1, #photo2, #photo3,
+        #photo4, #photo5, #photo6 {
+            width: 100px;
+            margin-bottom: 0;
+        }
+    
+        #photo4, #photo6 {
+            margin-top: 150px;
+        }
+    
+        #photo5 {
+            margin-top: 0;
+        }
+    
+        footer {
+            margin-top: 100px;
+        }
+
     }
 }
