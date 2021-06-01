@@ -46,9 +46,9 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.W
 
 ## Contact
 
-- GitHub [ViniciusAlba]({https://www.github.com/ViniciusAlba})
-- Twitter [@viniciusnitram]({https://www.twitter.com/viniciusnitram})
+- GitHub [ViniciusAlba](https://{github.com/ViniciusAlba})
+- Twitter [viniciusnitram](https://{twitter.com/viniciusnitram})
